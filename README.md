@@ -40,6 +40,7 @@
 | [Комплексная оптимизация инфраструктуры (Senior DevOps)](cases/senior-devops-infra-optimization.md) | journald, kube-reserved, containerd/Docker, sysctl, Prometheus, логи, swap/OOM, профили по ролям, демоны, очистка диска и образов |
 | [DevSecOps-пайплайн на GitLab CI](cases/devsecops-gitlab-pipeline.md) | Gitleaks, Hadolint, Checkov, Semgrep, Bandit, SonarQube, Trivy, OWASP ZAP, SCA, Helm, Argo CD — полный CI/CD с security-gates |
 | [GitOps CI/CD с security-стеком и SBOM](cases/gitops-cicd-security-sbom.md) | GitHub Actions/Jenkins, Syft, Cosign, Trivy, Snyk, Argo CD, Conftest/OPA, Kyverno — подпись образов, SBOM, policy as code |
+| [Concourse + Flux + Ansible: полный пайплайн и замена kube-proxy](cases/concourse-flux-ansible-pipeline.md) | Всё на Kubernetes, несколько ЦОДов, Master/Slave; Concourse (fly, set_pipeline), Ansible, Helm, Harbor, Flux, Cilium |
 
 ---
 
