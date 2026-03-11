@@ -18,8 +18,9 @@
 | **Сети** | TCP/IP, VLAN, DHCP, DNS, VPN (IPsec, OpenVPN), MikroTik, Cisco, D-Link, HP, Cilium (eBPF), HAProxy (L7), firewalld |
 | **Безопасность** | iptables, ufw, Windows Firewall, fail2ban, RBAC, ACL, SSL/TLS, Kaspersky Security Center |
 | **DevSecOps / безопасность кода** | Gitleaks, TruffleHog, Hadolint, Checkov (IaC), Semgrep, Bandit, SonarQube, Trivy (образы, fs), OWASP ZAP (DAST), Snyk/Dependabot (SCA), Conftest/OPA, Kyverno, Cosign (Sigstore), Syft (SBOM) |
-| **СУБД** | MySQL, PostgreSQL (репликация, HA, primary/standby) |
-| **Очереди и бэкенды** | RabbitMQ, S3-совместимое хранилище |
+| **СУБД** | MySQL, PostgreSQL (репликация, HA, primary/standby), Greengage (open-source форк Greenplum, MPP-аналитика) |
+| **Оркестрация пайплайнов данных** | Apache Airflow (DAG, операторы, сенсоры) |
+| **Очереди и бэкенды** | RabbitMQ, Kafka (топики, партиции, consumer groups), S3-совместимое хранилище |
 | **Резервное копирование** | Veeam Backup & Replication, FreeNAS |
 | **Почта / приложения** | Postfix, Dovecot, Nextcloud, 1С |
 | **Телефония / видеонаблюдение** | UIS, 3CX, MTT, СКУД (SecureOS) |
