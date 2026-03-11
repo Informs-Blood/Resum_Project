@@ -8,14 +8,18 @@
 
 | Область | Инструменты / Технологии |
 |---------|--------------------------|
-| **Системное администрирование** | Linux (Ubuntu, RedOS, Debian), Windows Server (2008 R2–2019), VMware ESXi, Hyper-V, VirtualBox |
-| **Контейнеры / оркестрация** | Docker, Kubernetes |
-| **Мониторинг** | Prometheus, Grafana, Alertmanager, Pushgateway, Zabbix |
+| **Системное администрирование** | Linux (Ubuntu, RedOS, Debian), Windows Server (2008 R2–2019), VMware ESXi, Hyper-V, VirtualBox, systemd (journald, unit override), sysctl, cgroups |
+| **Контейнеры / оркестрация** | Docker, containerd, Kubernetes (multi-DC, kubelet, kube-reserved, NodeSwap), Helm, Kustomize, OCI-образы, Harbor |
+| **CI/CD** | GitLab CI/CD, Jenkins, Concourse CI (fly, set_pipeline, resources, tasks), GitHub Actions, Tekton, Semver (S3) |
+| **GitOps** | Flux, Argo CD, Git (конфиг и пайплайны как код) |
+| **Мониторинг и наблюдаемость** | Prometheus (retention, relabel, recording rules), Grafana, Alertmanager, Pushgateway, Zabbix, Telegram API, интеграция с системами инцидентов |
 | **SIEM / логи** | Wazuh, Graylog |
-| **Автоматизация** | Ansible (playbooks, роли), Git, CI/CD |
-| **Сети** | TCP/IP, VLAN, DHCP, DNS, VPN (IPsec, OpenVPN), MikroTik, Cisco, D-Link, HP |
+| **Автоматизация** | Ansible (playbooks, роли, inventory, group_vars), Git |
+| **Сети** | TCP/IP, VLAN, DHCP, DNS, VPN (IPsec, OpenVPN), MikroTik, Cisco, D-Link, HP, Cilium (eBPF), HAProxy (L7), firewalld |
 | **Безопасность** | iptables, ufw, Windows Firewall, fail2ban, RBAC, ACL, SSL/TLS, Kaspersky Security Center |
-| **СУБД** | MySQL, PostgreSQL (репликация, HA) |
+| **DevSecOps / безопасность кода** | Gitleaks, TruffleHog, Hadolint, Checkov (IaC), Semgrep, Bandit, SonarQube, Trivy (образы, fs), OWASP ZAP (DAST), Snyk/Dependabot (SCA), Conftest/OPA, Kyverno, Cosign (Sigstore), Syft (SBOM) |
+| **СУБД** | MySQL, PostgreSQL (репликация, HA, primary/standby) |
+| **Очереди и бэкенды** | RabbitMQ, S3-совместимое хранилище |
 | **Резервное копирование** | Veeam Backup & Replication, FreeNAS |
 | **Почта / приложения** | Postfix, Dovecot, Nextcloud, 1С |
 | **Телефония / видеонаблюдение** | UIS, 3CX, MTT, СКУД (SecureOS) |
